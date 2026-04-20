@@ -127,22 +127,6 @@
 <main>
   <div class="container-fluid d-flex-xxl">
 
-    <div class="row my-4 temprow align-content-start">
-      #for $x in $Extras.Appearance.values_order
-
-      #if $x == "ET"
-        #if $month.ET.has_data and $month.ET.sum.raw is not None and $month.ET.sum.raw > 0.0
-          $valuesCard('ET')
-        #end if
-      #else
-        $valuesCard($x)
-      #end if
-
-      #end for
-    </div>
-
-    <hr class="my-4 rowdivider">
-
     <div class="row mt-5 mb-4 graphrow align-content-start">
       #for $x in $Extras.Appearance.charts_order
 
