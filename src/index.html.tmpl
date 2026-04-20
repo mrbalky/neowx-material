@@ -175,6 +175,15 @@
       #end for
     </div>
 
+    <hr class="my-4 rowdivider">
+
+    <div align="center">
+      #for $cam in $Extras.camera
+        <a href="$cam?$int(time.time())"><img src="$cam?$int(time.time())" style="width:45%"></a>&nbsp;&nbsp;&nbsp;
+      #end for
+    </div>
+    <br/>
+    <br/>
   </div>
 </main>
 
