@@ -46,6 +46,10 @@
 ## MDB + skin style
 <link rel="stylesheet" href="css/style.min.css">
 
+## Webcam slideshow
+<link rel="stylesheet" href="css/slideshow.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 ## Weather Icons
 <link rel="stylesheet" href="weather-icons/css/weather-icons.min.css">
 <link rel="stylesheet" href="weather-icons/css/weather-icons-wind.min.css">
